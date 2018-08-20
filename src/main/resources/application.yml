@@ -1,0 +1,10 @@
+openproject:
+  host: test.openproject.spe-hub.net
+  api-username: apikey
+  api-password: ${OPENPROJECT_API_PASSWORD}
+
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO

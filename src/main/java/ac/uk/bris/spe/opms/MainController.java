@@ -26,7 +26,7 @@ public class MainController implements WebMvcConfigurer {
     private static final Logger logger = LoggerFactory.getLogger(MainController.class);
 
 
-    @GetMapping("/loginOpenProject")
+    @GetMapping("/listProjects")
     @ResponseBody
     public String listProjects(@Value("${openproject.api-username}") final String username, @Value("${openproject.api-password}") final String password, @Value("${openproject.host}") final String openProjectHost) throws IOException {
 
